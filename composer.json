@@ -1,0 +1,37 @@
+{
+    "name": "hadi-heydarzade89/question-and-answer",
+    "description": "Question and answer package",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "qa"
+    ],
+    "support": {
+        "source": "https://github.com/hadi-heydarzade89/question_and_answer"
+    },
+    "authors": [
+        {
+            "name": "Hadi Heydarzade",
+            "email": "hadi.heydarzade@proton.me"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "spatie/laravel-permission": "^5.5",
+        "darkaonline/l5-swagger": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HadiHeydarzade89\\QuestionAndAnswer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HadiHeydarzade89\\QuestionAndAnswer\\QuestionAndAnswerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "version": "1.0.0"
+}
